@@ -36,7 +36,7 @@ Some measurements may contain **outliers**, which are natural biological variati
 We use **Support Vector Machine (SVM)** for classification.
 
 - **Kernel:** `rbf` (Radial Basis Function) → handles non-linear boundaries  
-- **C Parameter:** `C=1` → balances margin and misclassification  
+- **C Parameter:** `C=0.1` → balances margin and misclassification  
 - **Gamma:** `'scale'` → scales the influence of individual samples  
 
 **Why SVM?**  
