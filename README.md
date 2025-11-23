@@ -55,9 +55,12 @@ The model learns to separate the three species based on measurements of sepals a
 ## 4. Model Evaluation
 After training, we evaluate the model using the test set:
 
-- **Accuracy:** Percentage of correct predictions  
-- **Classification Report:** Precision, recall, F1-score for each species  
-- **Confusion Matrix:** Visual representation of correct vs misclassified predictions  
+- **Accuracy:** Percentage of correct predictions is - 96%
+- **Classification Report:** Precision, recall, F1-score for each species
+- ![classification report,accuracy](images\img1.png)
+
+- **Confusion Matrix:** Visual representation of correct vs misclassified predictions
+- ![confussion matrix](images\img2.png)
 
 Example:  
 - `Iris-setosa` is usually predicted correctly  
